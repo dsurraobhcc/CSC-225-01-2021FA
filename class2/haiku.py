@@ -1,4 +1,8 @@
 '''
+'Haiku review' problem from cyber-dojo.org
+
+https://cyber-dojo.org/kata/edit/15EwqN
+
 replacing vowels with hyphens
 breaking the problem into smaller tasks
 
