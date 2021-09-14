@@ -1,0 +1,16 @@
+broke down problem into simpler functions
+
+re.findall()
+
+str.split()
+
+list methods append()
+
+if else conditional statements
+
+tuple data type
+
+unit testing
+
+
+
