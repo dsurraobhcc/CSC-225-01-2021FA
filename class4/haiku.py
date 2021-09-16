@@ -14,7 +14,7 @@ def check_haiku(poem):
         for line in lines:
             syllable_counts.append(num_syllables(line))
     else:
-        raise Exception('Poem has more than three lines') 
+        raise Exception(f'Poem has more than three lines: {poem}') 
 
     # include Yes/No in the return value
     if syllable_counts == [5, 7, 5]:
@@ -25,5 +25,11 @@ def check_haiku(poem):
     return tuple(syllable_counts)
 
 if __name__ == '__main__':
-    haiku1 = 'happy purple frog/eating bugs in the marshes/get indigestion'
-    print(check_haiku(haiku1))
+    # read haikus from a file
+    with open('haikus.txt') as f:
+        for line in f:
+            try:
+                line = line.rstrip()
+                print(check_haiku(line), line)
+            except Exception as err:
+                print(err)
