@@ -1,0 +1,9 @@
+JSON data
+
+Making HTTP requests
+
+Reading HTTP responses and parsing data
+
+REST API call
+
+(lists, dictionaries, sets, tuples, strings) and exception handling.
