@@ -19,4 +19,5 @@ else:
     data = response.read().decode('utf-8')
     data_array = json.loads(data)
     data_dict = data_array[0]
-    print(f"{data_dict['symbol']}, {data_dict['lastSalePrice']}, {data_dict['sector']}")
+    print(f"{data_dict['symbol']}, {data_dict['lastSalePrice']}, \
+        {data_dict['sector']}")
