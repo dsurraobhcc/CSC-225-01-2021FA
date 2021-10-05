@@ -1,0 +1,12 @@
+Defining classes
+- attributes
+- methods: functions belonging to the class
+
+Class inheritance
+- subclasses
+- method override
+
+Importing classes
+
+Docstrings
+
