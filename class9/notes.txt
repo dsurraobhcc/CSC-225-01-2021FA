@@ -1,0 +1,7 @@
+Classes and subclasses
+
+Updating class attributes using methods, improved business logic
+
+Creating multiple classes and connecting them, e.g. ElectricCar and Battery: a Battery object is an attribute of an ElectricCar
+
+special methods/magic methods, e.g., __str__()
