@@ -38,4 +38,13 @@ class IceCreamStand(Restaurant):
         """
         Add new flavors to existing list
         """
-        self.flavors = self.flavors + flavors
+        # add a check for duplicate flavors
+        
+        # for flavor in flavors:
+        #     if flavor not in self.flavors:
+        #         self.flavors.append(flavor)
+
+        self.flavors += flavors
+        self.flavors = list(set(self.flavors))
+
+

@@ -3,6 +3,7 @@ Define a Dog class with attributes name and age
 Define a constructor method for the class
 """
 
+# CamelCase
 class Dog:
 
     # create attributes in the constructor
