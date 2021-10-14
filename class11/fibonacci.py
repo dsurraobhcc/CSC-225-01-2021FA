@@ -45,7 +45,9 @@ def memo_fib(n, state={}):
             fib_num = n
         else:
             # recursive call
-            fib_num = memo_fib(n - 1) + memo_fib(n - 2)
+            fib_n_2 = memo_fib(n - 2, state)
+            fib_n_1 = memo_fib(n - 1, state)
+            fib_num = fib_n_1 + fib_n_2
 
         # store the result in state
         state[n] = fib_num
@@ -59,6 +61,7 @@ if __name__ == '__main__':
         # fibs = [fib(i) for i in range(10)]
         # print(fibs)
         # print(fib(35)) # 9227465
+        # print(memo_fib(35)) # 9227465
         # print(memo_fib(500)) 
 
         for i in range(10):
