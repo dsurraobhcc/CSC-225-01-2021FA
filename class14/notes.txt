@@ -1,0 +1,10 @@
+Learning outcomes:
+
+Building web applications in Django
+- views: present web pages with or without data from a database
+  - templates: HTML embedded with code to present data and web content
+- urls: web addresses that point to views
+- models: objects that represent data in the database
+- users: users who can log in to the web site
+
+Deploying web applications to Heroku
