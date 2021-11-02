@@ -1,0 +1,19 @@
+Configured database in settings
+
+Defined models to save data
+
+Defined forms related to models
+- checking form validity
+
+Defined urls pointing to forms and pages
+
+Header page (menu) that all pages inherit
+
+Admin page, admin user
+
+To do: 
+- Add user accounts, allow users to login
+- Format HTML for presentation (CSS, Bootstrap)
+- Deploy the web application to the cloud (Hekoru)
+
+
