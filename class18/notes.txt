@@ -1,0 +1,20 @@
+Deploying a Django app to Heroku
+
+- install git, heroku, postgres
+
+- cloned tutorial repo with Heroku-specific settings for Django
+
+- ran website locally, and remotely
+
+- made code changes to the index view, committed changes to local github repo
+
+- pushed code changes to heroku: this updated the website: Continuous Integration (CI) pipeline
+
+- CI/CD pipeline: commit, test, deploy
+
+
+
+
+
+
+
