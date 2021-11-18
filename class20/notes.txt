@@ -1,0 +1,20 @@
+HTTP GET request to list todos
+
+HTTP POST request to add a todo
+
+HTTP PUT request to update a todo
+
+HTTP PATCH request to update a portion of a todo
+
+HTTP DELETE request to delete a todo
+
+REST API
+
+CRUD operations
+
+Create
+Read
+Update
+Delete
+
+
