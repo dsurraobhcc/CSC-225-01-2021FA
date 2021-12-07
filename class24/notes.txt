@@ -1,0 +1,10 @@
+reshaping dataframes
+
+combining dataframes
+
+parsing datetime values
+
+group by and aggregates
+
+deriving new columns
+
